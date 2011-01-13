@@ -11,20 +11,21 @@ Power Tips / Workflows
 \
 Outline\
 \
-Part 0\
+Part 0 "To there and back again"\
 - Title / introduction\
 \
-Part 1 - To there and back again\
+Part 1 - "The Council of Elrond" (Part 2?)\
 History of git\
 - design goals\
 - all systems\
 sources:\
 \pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-2.html"}}{\fldrslt 
-\f1 \cf2 \ul \ulc2 A Short History of Git}}\
+
+\f1 \cf2 \ul \ulc2 - {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-2.html"}}{\fldrslt A Short History of Git}}
+\f0 \cf0 \ulnone \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
 \cf0 \
-Part 2\
+Part 2 "A Conspiracy Unmasked" (Part 1?)\
 how it works\
 * image 1\
 * image 2\
@@ -32,21 +33,20 @@ how it works\
 sources:
 \f1 \cf2 \ul \ulc2 \
 \pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-3.html"}}{\fldrslt \cf2 Git Basics}}
+\cf2 - {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-3.html"}}{\fldrslt Git Basics}}
 \f0 \cf0 \ulnone \
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
-\cf0 \
-Part 3\
-Three states (image)\
+\cf0 Three states (image)\
+- http://progit.org/book/ch1-3.html\
 - basic work flow, modify, stage, commit\
 \
-Part 4\
-branching\
+Part 3\
+branching "The White Rider"\
 What a branch is ( http://progit.org/book/ch3-1.html )\
 HEAD\
 SVN vs. Git model of branching\
 \
-Part 5 - Getting work done\
+Part 4 - Getting work done "The Taming of Smeagol"\
 - cloning projects \
 - ex: clone remote project locally\
 - ex 1: basic:\
@@ -61,64 +61,45 @@ Part 5 - Getting work done\
 	log ..master, log master..\
 	ignore, \
 	diff (--cached)\
-- ex 3: remotes\
+	stash\
+- ex 3: undoing things\
+	checkout\
+	reset\
+	rebase\
+sources:\
+- http://progit.org/book/ch2-4.html\
+\
+Part 5\
+Playing nice with others "The Muster of Rohan" \
+- ex 4: remotes\
 	adding\
 	pull\
 	fetch\
 	rebase\
-	sources:\
-		http://progit.org/book/ch2-5.html\
-- ex 4: undoing things\
-	checkout\
-	reset\
-	rebase\
-	sources:\
-		http://progit.org/book/ch2-4.html\
 \
-- submodules\
+- submodules ?  <- maybe lightning talk about subs and subtrees 
+\f1 \cf2 \ul \ulc2 \
+\pard\pardeftab720\ql\qnatural
+\cf3 \ulc3 - {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch5-1.html"}}{\fldrslt Distributed Workflows}}
+\f0 \cf0 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 sources:\
+- http://progit.org/book/ch2-5.html\
+- http://progit.org/book/ch3-5.html\
+\
+Part 6\
+On the server "The Steward and the King" or "The Grey Havens"\
+- protocols\
+- tools \
+	- Gitweb: http://progit.org/book/ch4-6.html\
+	- Gitosis: http://progit.org/book/ch4-7.html\
+	- Gitolite: http://progit.org/book/ch4-8.html\
+- hosted services\
+\
 \
 \
 Part N:\
 - My contact info\
 - Additional reading\
 	- "First time setup" config, etc http://progit.org/book/ch1-5.html \
-- Thanks to Scott\
-\
-Chapters\
-\
-Part 1
-\f1 \cf2 \ul \ulc2 \
-\pard\pardeftab720\ql\qnatural
-\cf2 ?{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-5.html"}}{\fldrslt First-Time Git Setup}}\
-?- config options\
-- equal node or hub\
-\
-Part 2\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-1.html"}}{\fldrslt \cf2 Getting a Git Repository}}\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-2.html"}}{\fldrslt \cf2 Recording Changes to the Repository}}\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-3.html"}}{\fldrslt \cf2 Viewing the Commit History}}\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-4.html"}}{\fldrslt \cf2 Undoing Things}}\
-\
-Part 3\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-5.html"}}{\fldrslt Working with Remotes}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch3-1.html"}}{\fldrslt What a Branch Is}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch3-2.html"}}{\fldrslt Basic Branching and Merging}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch3-3.html"}}{\fldrslt Branch Management}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch3-4.html"}}{\fldrslt Branching Workflows}} (?)\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch3-5.html"}}{\fldrslt Remote Branches}}\
-\
-Part 4\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch4-1.html"}}{\fldrslt The Protocols}} - brief, list with pros/cons\
-\
-Part 5\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch5-1.html"}}{\fldrslt \cf3 \ulc3 Distributed Workflows}}\cf3 \ulc3 \
-- {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch5-2.html"}}{\fldrslt http://progit.org/book/ch5-2.html}} <- examples to use\
-\
-Ref:\
-#Guidelines \
-- Commit message format }
+- Thanks to Scott}
