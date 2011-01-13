@@ -1,7 +1,7 @@
 {\rtf1\ansi\ansicpg1252\cocoartf1038\cocoasubrtf350
 {\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 HelveticaNeue;}
 {\colortbl;\red255\green255\blue255;\red47\green51\blue44;\red48\green50\blue44;}
-\margl1440\margr1440\vieww12380\viewh10900\viewkind0
+\margl1440\margr1440\vieww25020\viewh15120\viewkind0
 \pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
 
 \f0\b\fs24 \cf0 Intro\
@@ -11,51 +11,86 @@ Power Tips / Workflows
 \
 Outline\
 \
-Page 1 - To there and back again\
+Part 0\
+- Title / introduction\
+\
+Part 1 - To there and back again\
 History of git\
 - design goals\
 - all systems\
-\
-Page 2\
-- snapshots\
+sources:\
+\pard\pardeftab720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-2.html"}}{\fldrslt 
+\f1 \cf2 \ul \ulc2 A Short History of Git}}\
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+Part 2\
+how it works\
 * image 1\
 * image 2\
 - independent, no server needed\
-\
-Page 3\
+sources:
+\f1 \cf2 \ul \ulc2 \
+\pard\pardeftab720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-3.html"}}{\fldrslt \cf2 Git Basics}}
+\f0 \cf0 \ulnone \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\ql\qnatural\pardirnatural
+\cf0 \
+Part 3\
 Three states (image)\
 - basic work flow, modify, stage, commit\
 \
-Page 4 - Getting work done\
+Part 4\
+branching\
+What a branch is ( http://progit.org/book/ch3-1.html )\
+HEAD\
+SVN vs. Git model of branching\
+\
+Part 5 - Getting work done\
 - cloning projects \
 - ex: clone remote project locally\
-- ex: create, \
+- ex 1: basic:\
 	add, \
 	modify,\
 	stage, \
-	commit, \
+	commit\
+- ex 2: branching:\
 	branch, \
 	merge, \
 	log --stat, --pretty, --oneline, --graph, --since2.weeks, \
+	log ..master, log master..\
 	ignore, \
-	diff (--cached) <- practice this to hit all \
+	diff (--cached)\
+- ex 3: remotes\
+	adding\
+	pull\
+	fetch\
+	rebase\
+	sources:\
+		http://progit.org/book/ch2-5.html\
+- ex 4: undoing things\
+	checkout\
+	reset\
+	rebase\
+	sources:\
+		http://progit.org/book/ch2-4.html\
+\
 - submodules\
 \
 \
-Go Read:\
-- "First time setup" config, etc http://progit.org/book/ch1-5.html \
+Part N:\
+- My contact info\
+- Additional reading\
+	- "First time setup" config, etc http://progit.org/book/ch1-5.html \
+- Thanks to Scott\
 \
 Chapters\
 \
-Part 1\
-\pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-2.html"}}{\fldrslt 
-\f1 \cf2 \ul \ulc2 A Short History of Git}}
+Part 1
 \f1 \cf2 \ul \ulc2 \
-?{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-5.html"}}{\fldrslt First-Time Git Setup}}\
-?- config options\
 \pard\pardeftab720\ql\qnatural
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-3.html"}}{\fldrslt \cf2 Git Basics}}\
+\cf2 ?{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch1-5.html"}}{\fldrslt First-Time Git Setup}}\
+?- config options\
 - equal node or hub\
 \
 Part 2\
@@ -63,8 +98,10 @@ Part 2\
 {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-1.html"}}{\fldrslt \cf2 Getting a Git Repository}}\
 \pard\pardeftab720\ql\qnatural
 {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-2.html"}}{\fldrslt \cf2 Recording Changes to the Repository}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-3.html"}}{\fldrslt Viewing the Commit History}}\
-{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-4.html"}}{\fldrslt Undoing Things}}\
+\pard\pardeftab720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-3.html"}}{\fldrslt \cf2 Viewing the Commit History}}\
+\pard\pardeftab720\ql\qnatural
+{\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-4.html"}}{\fldrslt \cf2 Undoing Things}}\
 \
 Part 3\
 {\field{\*\fldinst{HYPERLINK "http://progit.org/book/ch2-5.html"}}{\fldrslt Working with Remotes}}\
