@@ -11,7 +11,7 @@ _"The Council of Elrond" (Part 2?)_
 - All systems    
   
 __Part 2__    
-_"A Conspiracy Unmasked" (Part 1?)_   
+_"How it works: A Conspiracy Unmasked" (Part 1?)_   
  
 - [how it works](http://progit.org/book/ch1-3.html )  
 - Three states  
@@ -19,7 +19,7 @@ _"A Conspiracy Unmasked" (Part 1?)_
 - independent, no server needed   
   
 __Part 3__  
-_"The White Rider"_  
+_"Branching: The White Rider"_  
 
 - [What a branch is](http://progit.org/book/ch3-1.html)  
 - SVN vs. Git model of branching  
