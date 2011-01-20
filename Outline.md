@@ -46,6 +46,8 @@ _"The Taming of Smeagol"_
   * ignore,   
   * diff (--cached)  
   * stash  
+  * merge from remote
+  * branch from remote's fetch
 
 - ex 3: undoing things  
 
